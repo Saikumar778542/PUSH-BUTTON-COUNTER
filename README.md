@@ -39,9 +39,11 @@ The system consists of four major blocks: Temperature Sensing Unit – LM35 Anal
 Software Purpose KEIL µVision Writing, compiling, generating HEX file PROTEUS ISIS Circuit design and simulation Embedded C Programming language
 
 7.WHY ADC IS REQUIRED?
+
 The LM35 produces an analog voltage output. The AT89C51 microcontroller can only process digital data. Therefore: ADC0804 is used to convert analog voltage into digital form.
 
 8.CIRCUIT DESIGN (PROTEUS)
+
 8.1 LM35 to ADC0804 Connections LM35 Pin Connection Pin 1 (VCC) +5V Pin 2 (OUT) ADC0804 Vin+ Pin 3 (GND) GND 8.2 ADC0804 to AT89C51 Connections ADC0804 Pin AT89C51 Pin D0–D7 Port-1 (P1.0–P1.7) WR P3.6 RD P3.7 INTR P3.2 CS GND CLK IN RC network 8.3 LCD to AT89C51 Connections (4-bit mode) LCD Pin AT89C51 Pin RS P2.0 EN P2.1 D4 P2.4 D5 P2.5 D6 P2.6 D7 P2.7 VSS GND VDD +5V V0 Potentiometer 9. WORKING PRINCIPLE
 
 LM35 senses ambient temperature Produces analog voltage (10 mV/°C) ADC0804 converts voltage to digital value 8051 reads digital data Temperature calculated using formula LCD displays temperature
@@ -65,19 +67,23 @@ Open Proteus ISIS Place AT89C51, LM35, ADC0804, LCD Connect components as per ci
 Industrial monitoring systems Embedded laboratories Smart devices Medical equipment Weather stations
 
 15.ADVANTAGES
+
 Simple and cost-effective Real-time monitoring Easy to expand Good learning platform
 
 16.LIMITATIONS
+
 No data logging Limited resolution Requires ADC hardware
 
 17.FUTURE ENHANCEMENTS
+
 Add push button for unit selection Use digital temperature sensor Add buzzer alert IoT integration Data storage
 
 18.CONCLUSION
+
 This project successfully demonstrates temperature measurement using an LM35 sensor, ADC0804, and AT89C51 microcontroller. The system was coded in KEIL and simulated in PROTEUS, fulfilling all CODTECH internship requirements.
 
 
-"C:\codtech embedded internship\TASK 1 PUSH BUTTON COUNTER\push_button_counter output.mp4"
+
 
 
 
