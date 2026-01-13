@@ -82,6 +82,10 @@ Add push button for unit selection Use digital temperature sensor Add buzzer ale
 
 This project successfully demonstrates temperature measurement using an LM35 sensor, ADC0804, and AT89C51 microcontroller. The system was coded in KEIL and simulated in PROTEUS, fulfilling all CODTECH internship requirements.
 
+19.OUTPUT
+
+https://github.com/Saikumar778542/PUSH-BUTTON-COUNTER/blob/main/push_button_counter%20output.mp4
+
 
 
 
