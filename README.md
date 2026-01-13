@@ -84,7 +84,7 @@ This project successfully demonstrates temperature measurement using an LM35 sen
 
 19.OUTPUT
 
-https://github.com/Saikumar778542/PUSH-BUTTON-COUNTER/blob/main/push_button_counter%20output.mp4
+"C:\codtech embedded internship\TASK 1 PUSH BUTTON COUNTER\push_btn_counter_output.mp4"
 
 
 
